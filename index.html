@@ -1,79 +1,135 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HBO Max</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <header>
-            <img src="./img/hbo-max.svg">
-        </header>
+    <div id="ce__root">
+        <div class="ce__App__component">
+            <header class="ce__Header__header"><a>
 
-        <div class="corpo">
-            <div class="corpo-central">
-                <div class="arranjo">
-                    <h1 class="h1">
-                        Entrar
-                    </h1>
-                    <form>
-                        <div class="email">
-                            <div class="imput-email">
-                                <input type="text" id="email" name="email" value />
-                            </div>
-                            <label for="email">Endereço de e-mail</label>
+                </a></header>
+            <div class="ce__ToastMessage__toastSpacing"></div>
+            <div class="ce__Screen__component appearAnimation">
+                <div class="ce__Spacing__component ce__Screen__screenSpacing">
+                    <div class="ce__Screen__extraNarrowContent">
+                        <h1 class="ce__ScreenTitle__heading" tabindex="0">Entrar</h1>
+                        <div class="ce__Spacing__component" style="padding: 16px 0px 0px;">
+                            <form name="sign-in" class="ce__Form__component">
+                                <div class="ce__Input__fieldContainer">
+                                    <div class="ce__Input__textField">
+                                        <div class="input empty ce__Input__inputWrapper"><input
+                                                class="ce__Input__inputInner" type="text" id="email" name="email"
+                                                value=""></div><label for="email">Endereço de e-mail</label>
+                                    </div>
+                                    <div class="ce__Input__fieldSuccess"></div>
+                                </div>
+                                <div class="ce__Input__passwordContainer">
+                                    <div class="ce__Input__fieldContainer">
+                                        <div class="ce__Input__textField">
+                                            <div
+                                                class="input empty password ce__Input__pwManagerSpacing ce__Input__inputWrapper">
+                                                <input class="ce__Input__inputInner" type="password" id="password"
+                                                    name="password" value="">
+                                            </div><label for="password">Senha</label>
+                                        </div>
+                                        <div class="ce__Input__fieldSuccess"></div>
+                                    </div><a id="togglePasswordVisibility" class="ce__Input__passwordToggle"
+                                        tabindex="0">
+                                        <div id="IconPasswordContainer" class="ce__Input__passwordDisabled"><svg
+                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg" id="IconPasswordShow"
+                                                aria-label="Mostrar" role="button">
+                                                <g clip-path="url(#clip0)">
+                                                    <path
+                                                        d="M3.5 12.2503L2.89316 11.8096C2.69569 12.0815 2.70317 12.4515 2.91146 12.7152L3.5 12.2503ZM3.5 12.2503C2.89316 11.8096 2.8933 11.8094 2.89346 11.8092L2.89385 11.8086L2.89488 11.8072L2.898 11.8029L2.90843 11.7888C2.91722 11.7769 2.9297 11.7602 2.94577 11.739C2.97791 11.6965 3.02445 11.6358 3.08469 11.5596C3.2051 11.4073 3.38057 11.1924 3.6054 10.9357C4.05419 10.4234 4.7043 9.73959 5.51044 9.05387C7.10037 7.70144 9.40482 6.25 12.0314 6.25C14.6592 6.25 16.9485 7.70259 18.5238 9.05633C19.3224 9.74258 19.9648 10.4269 20.4077 10.9396C20.6297 11.1964 20.8027 11.4115 20.9214 11.564C20.9808 11.6402 21.0267 11.701 21.0584 11.7435C21.0742 11.7648 21.0865 11.7816 21.0952 11.7935L21.1055 11.8077L21.1086 11.812L21.1096 11.8134L21.11 11.8139C21.1101 11.8142 21.1103 11.8144 20.5 12.2503M3.5 12.2503C2.91146 12.7152 2.91162 12.7154 2.91178 12.7156L2.91219 12.7161L2.91327 12.7175L2.91645 12.7215L2.92695 12.7346C2.93576 12.7455 2.94821 12.7608 2.96419 12.7802C2.99616 12.8191 3.04233 12.8744 3.10202 12.9437C3.22135 13.0823 3.39504 13.2776 3.61765 13.5105C4.06204 13.9757 4.70573 14.5958 5.50523 15.2173C7.08681 16.4467 9.36647 17.75 11.9686 17.75C14.57 17.75 16.8647 16.4477 18.4607 15.2195C19.2677 14.5986 19.919 13.979 20.3691 13.5142C20.5946 13.2814 20.7706 13.0864 20.8916 12.9479C20.9522 12.8787 20.999 12.8235 21.0314 12.7847C21.0476 12.7653 21.0602 12.75 21.0692 12.7391L21.0798 12.7261L21.083 12.7221L21.0841 12.7208L21.0845 12.7203C21.0846 12.7201 21.0848 12.7199 20.5 12.2503M20.5 12.2503L21.1103 11.8144C21.3056 12.0878 21.2952 12.4578 21.0848 12.7199L20.5 12.2503Z"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M14.75 12.0004C14.75 13.5189 13.5186 14.75 11.9996 14.75C10.4809 14.75 9.25 13.5191 9.25 12.0004C9.25 10.4814 10.4811 9.25 11.9996 9.25C13.5184 9.25 14.75 10.4816 14.75 12.0004Z"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0">
+                                                        <rect width="24" height="24" fill="white"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                    </a>
+                                </div>
+                                <div class="ce__Spacing__component" style="padding-left: 0px; padding-right: 0px;">
+                                    <button class="ce__CallToAction__button ce__CallToAction__submitButton" id="signIn"
+                                        type="submit">Entrar</button>
+                                </div>
+                                <div class="ce__Spacing__component"
+                                    style="padding-top: 0px; padding-left: 0px; padding-right: 0px;"><a
+                                        class="ce__CallToAction__secondaryButton ce__CallToAction__linkButton"
+                                        href="https://play.hbomax.com/login" id="signInWithProvider"><span
+                                            class="ce__CallToAction__centerLinkButtonText">Entrar com um
+                                            provedor</span></a></div>
+                            </form>
                         </div>
-                        <div class="senha">
-                            <div class="imput-senha">
-                                <input type="text" id="senha" name="senha" value />
-                            </div>
-                            <label>Senha</label>
-                            <a id="icone da senha"></a>
-                        </div>
-                        <div class="espaço-entrar">
-                            <button class="entrar" id="entrarbotao" type="submit">Entrar </button>
-                        </div>
-                        <div class="seg-botao">
-                            <a class="seg" href="------" id="segbotao">
-                                <span class="texto-botao"> Entrar com um provedor</span>
-                            </a>
-                        </div>
-                    </form>
-                    <p class="nao"> Não tem conta?
-                        <a class="fluxo-cadastro" href="------" id="fluxoparacadastro">Cadastre-se </a>
-                    </p>
-                    <p class="esqueceu-senha">
-                        <a class="esqueceu" href="nul" target="_blank">Esqueceu a senha? </a>
-                        <span></span>
-                        <a class="esqueceu" href="nul" target="_blank">Precisa de ajuda para entrar?</a>
-                    </p>
+                        <p class="ce__Paragraph__component">Não tem uma conta? <a class="ce__CallToAction__link"
+                                href="/subscribe" id="switchToCreateAccount">Cadastre-se</a></p>
+                        <p class="ce__Paragraph__component ce__Paragraph__noSpacings"><a class="ce__CallToAction__link"
+                                href="https://activate.hbomax.com/forgotpassword" id="forgotPassword"
+                                target="blank">Esqueceu a senha?</a><span> </span><a class="ce__CallToAction__link"
+                                href="https://itsh.bo/max-bundle-signin" id="needHelp" target="blank">Precisa de ajuda
+                                para entrar?</a></p>
+                    </div>
                 </div>
             </div>
+            <footer class="ce__Footer__footer ce__Footer__footerWithRecaptcha">
+                <ul>
+                    <li class="ce__Footer__footerItem"><a class="ce__CallToAction__link ce__Footer__footerLink"
+                            href="https://www.hbomax.com/privacy" id="openPrivacy" target="blank">Política de
+                            Privacidade</a></li>
+                    <li class="ce__Footer__footerItem"><a class="ce__CallToAction__link ce__Footer__footerLink"
+                            href="https://www.hbomax.com/terms-of-use" id="openTermsFooter" target="blank">Termos de
+                            Uso</a></li>
+                    <li class="ce__Footer__footerItem"><a class="ce__CallToAction__link ce__Footer__footerLink" href="#"
+                            id="versionInfo">Informações</a></li>
+                    <li class="ce__Footer__footerItem">
+                        <div>
+                            <div class="ce__PrettyDropdown__component"><button class="ce__PrettyDropdown__toggle"
+                                    aria-haspopup="true" aria-expanded="false"><span role="button"><svg id="IconGlobe"
+                                            class="ce__PrettyDropdown__iconGlobe" width="10" height="10"
+                                            viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <circle cx="4.99219" cy="5" r="4.275" stroke="#9E86FF"
+                                                    stroke-width="0.45"></circle>
+                                                <path
+                                                    d="M7.06641 5C7.06641 6.21459 6.8143 7.30305 6.4174 8.07958C6.01433 8.86821 5.49799 9.275 4.99141 9.275C4.48482 9.275 3.96848 8.86821 3.56541 8.07958C3.16851 7.30305 2.91641 6.21459 2.91641 5C2.91641 3.78541 3.16851 2.69695 3.56541 1.92042C3.96848 1.13179 4.48482 0.725 4.99141 0.725C5.49799 0.725 6.01433 1.13179 6.4174 1.92042C6.8143 2.69695 7.06641 3.78541 7.06641 5Z"
+                                                    stroke="#9E86FF" stroke-width="0.45"></path>
+                                                <line x1="1" y1="3.67441" x2="9" y2="3.67441" stroke="#9E86FF"
+                                                    stroke-width="0.45"></line>
+                                                <line x1="1" y1="6.47666" x2="9" y2="6.47666" stroke="#9E86FF"
+                                                    stroke-width="0.45"></line>
+                                            </g>
+                                        </svg></span>Português (Brasil)<span role="button"><svg id="IconCevronDown"
+                                            class="ce__PrettyDropdown__iconChevron" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M13.6667 5.5L8.00001 10.8333L2.33334 5.5" stroke="none"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg></span></button>
+                                <div class="ce__PrettyDropdown__menu ce__PrettyDropdown__placeAbove" aria-hidden="true"
+                                    role="menu" tabindex="-1"><button value="en-US">English (US)</button><button
+                                        value="es-419">Español (Latinoamericano)</button><button value="pt-BR">Português
+                                        (Brasil)</button></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </footer>
         </div>
-
-        <footer class="pe">
-            <ul>
-                <li class="li-pe">
-                    <a class="linkfooter" href="nul" target="_blank">Política de Privacidade</a>
-                </li>
-                <li class="li-pe">
-                    <a class="linkfooter" href="nul" target="_blank">Termos de Uso</a>
-                </li>
-                <li class="li-pe">
-                    <a class="linkfooter" href="nul" target="_blank">Informações</a>
-                </li>
-                <li class="li-pe">
-                    <a class="linkfooter" href="nul" target="_blank">Português (Brasil)</a>
-                </li>
-            </ul>
-        </footer>
     </div>
-
 </body>
 
 </html>
