@@ -225,6 +225,14 @@ padding: 2px 24px 50px;
 justify-content: center;
 text-align: center;
 }
+.btn-link{
+    text-decoration: none;
+    color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 button{
     border-radius: 2em;
     color: #ffffff;
@@ -233,7 +241,6 @@ button{
     font-size: 15px;
     font-weight: 700;
     height: 52px;
-    padding: 0 45px;
     min-width: 315px;
     position: relative;
     background: #7b2abf;

@@ -123,6 +123,16 @@ form {
 
 }
 
+.icopass {
+    display: flex;
+    margin-top: -20px;
+    margin-left: 415px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.5;
+
+}
+
 input {
     width: 100%;
     background: transparent;
@@ -249,10 +259,11 @@ footer {
     width: 100%;
     padding: 12px;
     padding-top: 5px;
-    
+
 
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -261,19 +272,21 @@ ul{
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-.linkfooter{
+
+.linkfooter {
     display: inline-block;
     white-space: nowrap;
     line-height: 24px;
     padding: 10px 12px;
     color: #9e86ff;
-    
+
 }
-li{
+
+li {
     list-style-type: none;
     letter-spacing: .25px;
     font-size: 16px;
-    
+
 }
 
 .pe {
@@ -281,11 +294,13 @@ li{
     text-decoration: none;
 
 }
-.liport{
+
+.liport {
     display: flex;
     font-size: 13px;
 }
-.portico{
+
+.portico {
     margin-top: 17px;
     margin-left: 10px;
 }
