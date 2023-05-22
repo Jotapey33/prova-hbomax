@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(https://www.hbomax.com/static/wef/fonts/Gilroy-Regular.woff2) format("woff2"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Regular.woff) format("woff"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Regular.ttf) format("truetype"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Regular.eot#iefix) format("embedded-opentype");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(https://www.hbomax.com/static/wef/fonts/Gilroy-Medium.woff2) format("woff2"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Medium.woff) format("woff"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Medium.ttf) format("truetype"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Medium.eot#iefix) format("embedded-opentype");
+    font-style: normal;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(https://www.hbomax.com/static/wef/fonts/Gilroy-Bold.woff2) format("woff2"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Bold.woff) format("woff"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Bold.ttf) format("truetype"), url(https://www.hbomax.com/static/wef/fonts/Gilroy-Bold.eot#iefix) format("embedded-opentype");
+    font-style: normal;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: glyph;
+    src: url(https://www.hbomax.com/static/wef/fonts/hbomax-glyph.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400
+}
+
+* {
+    box-sizing: border-box
+}
+body {
+    background-image: url(img/bg-gradient.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    font-family: "Gilroy", sans-serif;
+
+}
+header {
+    display: block;
+}
+
+.header {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+
+header img {
+    width: 120px;
+    height: 37px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(3, 3, 40, .8);
+    width: 100%;
+    padding: 12px;
+    padding-top: 5px;
+    
+
+}
+footer ul{
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.linkfooter{
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 24px;
+    padding: 10px 12px;
+    color: #9e86ff;
+    
+}
+footer li{
+    list-style-type: none;
+    letter-spacing: .25px;
+    font-size: 16px;
+    
+}
+
+.pe {
+
+    text-decoration: none;
+
+}
